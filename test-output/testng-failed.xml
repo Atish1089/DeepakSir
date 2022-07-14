@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test parallel="none" name="Test(failed)">
+    <classes>
+      <class name="org.Test.TestingScripts.TC4">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="playVedio"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- org.Test.TestingScripts.TC4 -->
+      <class name="org.Test.TestingScripts.TC1">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- org.Test.TestingScripts.TC1 -->
+      <class name="org.Test.TestingScripts.TC8">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- org.Test.TestingScripts.TC8 -->
+      <class name="org.Test.TestingScripts.TC3">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- org.Test.TestingScripts.TC3 -->
+      <class name="org.Test.TestingScripts.TC2">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- org.Test.TestingScripts.TC2 -->
+      <class name="org.Test.TestingScripts.TC7">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- org.Test.TestingScripts.TC7 -->
+      <class name="org.Test.TestingScripts.TC5">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- org.Test.TestingScripts.TC5 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
