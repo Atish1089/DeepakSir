@@ -28,13 +28,8 @@ public class rough {
 	    action.sendKeys(Keys.TAB).perform();
 	    action.sendKeys(Keys.TAB).perform();
 	    action.sendKeys(Keys.TAB).perform();
-	   
-	    
-	    
 	    WebElement element = driver.findElement(By.cssSelector("label[for='checkbox-terms']"));
-	    
-	    
-	    //driver.findElement(By.cssSelector("label[class='css-label radGroup1']")).click();
+	 
 	   
 	  
 	  //Used points class to get x and y coordinates of element.
@@ -56,9 +51,7 @@ public class rough {
 	 
 	
 	
-	}
-	  
-	
+	}	
 	public static void main(String[] args) throws IOException {
 		
 		rough r = new rough();
