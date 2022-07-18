@@ -23,13 +23,13 @@ public class BaseClass {
 
   public ChromeDriver driver;
   public Properties pro = new Properties();
-  public File obj = new File("../YTFramework/src/test/java/org/Test/Base/object.properties");
+  public File obj = new File("../YouTubeProject_Deepak_Sir/src/test/java/org/Test/Base/object.properties");
 
   
   @BeforeMethod
   public void openBrowser() throws IOException {
     
-	System.setProperty("webdriver.chrome.driver", "../YTFramework/chromedriver.exe");
+	System.setProperty("webdriver.chrome.driver", "../YouTubeProject_Deepak_Sir/chromedriver.exe");
     driver = new ChromeDriver();
     FileReader fr = new FileReader(obj);
     pro.load(fr);

@@ -13,6 +13,7 @@ public class ScreenShot {
 	public static void takeScreenShot(ChromeDriver driver ) throws IOException
 	{
 		File file= driver.getScreenshotAs(OutputType.FILE);
-		FileUtils.copyFile(file, new File("../YTFramework/ScreenShots/screenshot_" + System.currentTimeMillis()+ ".jpg"));
+		FileUtils.copyFile(file, new File("../YouTubeProject_Deepak_Sir/ScreenShots/screenshot_" + System.currentTimeMillis()+ ".jpg"));
+	System.out.println("");
 	}
 }
