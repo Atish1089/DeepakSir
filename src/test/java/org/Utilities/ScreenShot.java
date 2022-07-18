@@ -14,6 +14,6 @@ public class ScreenShot {
 	{
 		File file= driver.getScreenshotAs(OutputType.FILE);
 		FileUtils.copyFile(file, new File("../YouTubeProject_Deepak_Sir/ScreenShots/screenshot_" + System.currentTimeMillis()+ ".jpg"));
-	System.out.println("");
+
 	}
 }
