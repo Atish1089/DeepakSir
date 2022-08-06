@@ -11,8 +11,8 @@ import jxl.read.biff.BiffException;
 
 
 public class FileHanling {
-    static File excel = new File("../YTFramework/test.xls");
-    static File textFile= new File ("../YTFramework/file3.txt");
+    static File excel = new File("../YouTubeProject_Deepak_Sir/test.xls");
+    static File textFile= new File ("../YouTubeProject_Deepak_Sir/file3.txt");
 //This method would read the data according to Row and Column number     
     public static void readDataFromSheet(int row, int collumn) throws BiffException, IOException {
         Workbook wb = Workbook.getWorkbook(excel);

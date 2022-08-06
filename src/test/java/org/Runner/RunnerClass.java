@@ -22,7 +22,7 @@ public class RunnerClass {
     xs.setName("Suite1");
     XmlTest xt = new XmlTest(xs);
     xt.setName("Test1");
-    File f = new File("../YTFramework/testCases.xls");
+    File f = new File("../YouTubeProject_Deepak_Sir/testCases.xls");
     Workbook wb = Workbook.getWorkbook(f);
     Sheet sh = wb.getSheet(0);
     int row = sh.getRows();
@@ -38,18 +38,12 @@ public class RunnerClass {
       }
     }
     System.out.println(axc.size());
-
     xt.setClasses(axc);
-
     ArrayList < XmlTest > axt = new ArrayList < XmlTest > ();
-
     axt.add(xt);
-
     xs.setTests(axt);
-
     ArrayList < XmlSuite > axs = new ArrayList < XmlSuite > ();
     axs.add(xs);
-
     TestNG tng = new TestNG();
     tng.setXmlSuites(axs);
     tng.run();

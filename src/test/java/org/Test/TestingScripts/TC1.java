@@ -9,7 +9,10 @@ import org.Utilities.ScreenShot;
 import org.testing.pages.HomePage;
 import org.testing.pages.LoginPage;
 import org.testing.pages.LogoutPage;
-import org.testng.annotations.Test;  
+import org.testng.annotations.Test;
+
+import com.relevantcodes.extentreports.ExtentReports;
+import com.relevantcodes.extentreports.ExtentTest;  
 
 
 
@@ -17,7 +20,8 @@ public class TC1 extends BaseClass {
 	
 	@Test
     public void trendingVedios() throws InterruptedException, IOException {
-        LoginPage login = new LoginPage(driver, pro);
+		
+		LoginPage login = new LoginPage(driver, pro);
         LogoutPage logout = new LogoutPage(driver, pro);
         HomePage hp = new HomePage(driver, pro);
         login.signIn(pro.getProperty("emailAddress"),pro.getProperty("passwordAddress")); 

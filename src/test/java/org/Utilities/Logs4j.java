@@ -10,7 +10,7 @@ public class Logs4j {
 	
 	public static void loggs(String className, String message )
 	{
-		DOMConfigurator.configure("../YTFramework/logs.xml");
+		DOMConfigurator.configure("../YouTubeProject_Deepak_Sir/logs.xml");
 		Logger log = Logger.getLogger(className);
 		log.info(message);
 		
