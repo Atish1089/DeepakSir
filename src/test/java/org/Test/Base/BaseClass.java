@@ -38,6 +38,9 @@ public class BaseClass {
     Options open = driver.manage();
     Window win = open.window();
     win.maximize();
+    System.out.println();
+    System.out.println();
+    System.out.println();
 
   }
 //  @Parameters({"chromeBrowser","Production-Environmet"})
